@@ -1,0 +1,59 @@
+.toolpage{
+    padding: 96px 0 124px;
+}
+.toolpage .headtool{
+    width: 60%;
+    margin-left: 20%;
+    color: #383e45;
+}
+.toolpage .headtool .titletool{
+    display: block;
+    margin-top: 40px;
+    font-size: 21px;
+    font-weight: 600;
+}
+.toolpage .weltool{
+    text-align: center;
+    font-size: 44px;
+    font-weight: 500;
+    color: #383e45;
+}
+.toolpage .welh5{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 300;
+}
+.toolpage .titleinfo{
+    display: block;
+    color: #969696;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.toolpage .linetool{
+    color: #969696;
+}
+.toolpage .infotool{
+    display: flex;
+    justify-content: center;
+}
+.toolpage .infoo{
+    margin-left: 20px;
+    margin-top: -20px;
+}
+/* .toolpage .infoo  */
+.toolpage .infoo p{
+    margin-top: 40px;
+}
+.toolpage .icontool{
+    color: #ff7d6d;
+    margin-top: 27px !important;
+    transform: scale(1.4);
+    margin-top: 16px;
+}
+@media (max-width: 400px){
+    .toolpage .linetool{
+        margin-top: 0px;
+    }
+}

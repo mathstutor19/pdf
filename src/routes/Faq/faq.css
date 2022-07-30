@@ -1,0 +1,75 @@
+.faqpage{
+    padding: 96px 0 124px;
+}
+.faqpage .headfaq{
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 50px;
+    /* box-sizing: border-box; */
+}
+.faqpage .ourfaq{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #383e45;
+}
+.faqpage .weh3{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-weight: 200;
+    color: #383e45;
+    font-size: 22px;
+}
+.faqpage .infofaq{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faqpage .forinfo{
+    width: 45%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+.faqpage .infotext{
+    width: 95%;
+    margin-left: 5%;
+}
+.faqpage .forinfo .iconstyle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ff7d6d;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faqpage .iconmd{
+    color: #fff;
+    transform: scale(1.faqpage .5);
+}
+.faqpage .infotext h4{
+    color: #383e45;
+    font-size: 22px;
+    font-weight: 500;
+}
+.faqpage .infofaq p{
+    color: #383e45;
+}
+@media(max-width:800px){
+    .faqpage .infofaq{
+        display: block;
+    }
+    .faqpage .forinfo{
+        width: 90%;
+        margin: auto;
+    }
+
+}

@@ -1,0 +1,51 @@
+.users{
+    background: var(--bg);
+    height: 500px;
+    width: 100%;
+}
+.users-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+.main-users{
+    text-align: center;
+}
+.dfg img{
+    width: 80px;
+    height: 30px;
+}
+.dfg{
+    position: relative;
+    top: 60px;
+    display: flex;
+    column-gap: 130px;    
+}
+.fds{
+    display: flex;
+    justify-content: center;
+}
+.main-users h1{
+    color: var(--blk);
+    margin-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+}
+.main-users p{
+    color: var(--blk);
+    font-weight: 400;
+    font-size: 22px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .users{
+        height: 500px;
+    }
+    .dfg{
+        display: flex;
+        column-gap: 50px;
+    }
+}

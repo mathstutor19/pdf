@@ -1,0 +1,148 @@
+.footer-texts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text{
+    width: 100%;
+    padding-top: 40px;
+    justify-content: center;
+}
+
+.footer-text h4{
+   color: #E8322D;
+   cursor: pointer;
+}
+
+.footer-text li{
+    list-style: none;
+    margin-top: 10px;
+    font-weight: 100;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.footer-text li:hover{
+    color: #E5322D;
+}
+
+.container .img-footer{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.copyright-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.copyright-texts i{
+    margin-top: 18px;
+}
+
+.language{
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    position: relative;
+    left: 36px;
+    cursor: pointer;
+}
+.footer-img{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.img-style1{
+    display: flex;
+    column-gap: 20px;
+}
+
+.language .i-style{
+    font-size: 25px;
+    color: #677897;
+    position: relative;
+    top: -4px;
+    left: -5px;
+}
+.style-ii{
+    position: relative;
+    top: -4px;
+}
+
+
+.media-copyright{
+    display: flex;
+}
+
+.media-copyright3{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 50%;
+    background: #4AC2F0;
+    margin-left: 5px;
+    position: relative;
+    top: -5px;
+    cursor: pointer;
+    transition: all .7s ease;
+}
+
+
+.media-copyright2{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 50%;
+    background: #7388B7;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    top: -5px;
+    cursor: pointer;
+    transition: all .7s ease;
+}
+
+.media-copyright3:hover{
+    transform: rotate(360deg);
+    background: #00ACED;
+}
+
+.media-copyright2:hover{
+    transform: rotate(360deg);
+    background: #375392;
+}
+.media-copyright{
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media (max-width: 768px){
+    .footer-texts{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .img-footer{
+        width: 100px;
+        height: 30px;
+    }
+    .media-copyright{
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,298 @@
+.navbar{
+    width: 100%;
+    height: 65px;
+    background: var(--oq);
+    position: fixed;
+    z-index: 1000;
+ 
+}
+.navbar_main{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar_main_left{
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+.navbar_main_img{
+    width: 120px;
+}
+.navbar_main_img img{
+    width: 100%;
+}
+.navbar_main_links{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.navbar_main_link{
+    height: 65px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    color: var(--black);
+    transition: .4s;
+    display: flex;
+    align-items: center;
+}
+.navbar_main_link:hover{
+    color: var(--red);
+}
+.navbar_main_right{
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+.navbar_main_right_link{
+    padding: 18px;
+    font-size: 30px;
+    color: var(--black);
+}
+.navbar_main_right_link1{
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background: var(--kulrang);
+    font-weight: 600;
+    font-size: 15px;
+}
+.navbar_main_right_link2{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 18px;
+    background: var(--btn_bg);
+    font-weight: 600;
+    color: var(--oq);
+    font-size: 15px;
+}
+.navbar_main_right_link3{
+    height: 65px;
+    font-size: 30px;
+    padding-left: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_main_right_link1:hover{
+    background: var(--black);
+    color: var(--oq);
+}
+.navbar_main_right_link2:hover{
+    background: var(--black);
+}
+.navbar_main_right_div{
+    height: 100%;
+    display: flex;  
+    align-items: center;
+}
+.navbar_main_right_div_div1{
+    width: 60px;
+    height: 100%;
+    background: var(--red);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_main_right_div_div1_p{
+    width: 16px;
+    height: 16px;
+    background: var(--oq);
+}
+.navbar_main_icon{
+    height: 100%;
+    font-size: 27px;
+    display: none;
+    align-items: center;
+}
+.navbar_main_right_hover{
+    position: relative;
+}
+.navbar_main_right_hover_div{
+    width: 200px;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 64px;
+    right: -10px;
+    background: var(--oq);
+    border-radius: 10px;
+}
+.navbar_main_right_hover:hover .navbar_main_right_hover_div{
+    display: flex;
+}
+.navbar_main_right_hover_div_link{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 15px;
+    border: 2px solid var(--oq);
+    position: relative;
+    color: var(--black);
+}
+.navbar_main_right_hover_div_link:hover{
+    width: 100%;
+    background: rgb(248, 248, 248);
+    border-left: 2px solid var(--red);
+    color: var(--red);
+}
+.heart{
+    color: var(--red);
+}
+.blue_heart{
+    color: blue;
+}
+.hover_arrow{
+    color: var(--black);
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+}
+.navbar_main_right_hover_div_hover{
+    position: relative;
+}
+.navbar_main_right_hover_div_hover_div{
+    width: 200px;
+    position: absolute;
+    left: -200px;
+    top: -53px;
+    background: var(--oq);
+    display: none;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.navbar_main_right_hover_div_hover:hover .navbar_main_right_hover_div_hover_div{
+    display: flex;
+}
+.icon{
+    font-size: 22px;
+}
+.navbar_main_right_hover_div_hover1{
+    position: relative;
+}
+.navbar_main_right_hover_div_hover1:hover .navbar_main_right_hover_div_hover1_div{
+    display: flex;
+}
+.navbar_main_right_hover_div_hover1_div{
+    width: 400px;
+    position: absolute;
+    top: 0;
+    left: -400px;
+    display: none;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    background: var(--oq);
+    padding: 10px;
+}
+.navbar_main_right_hover_div_hover1_div_link{
+    width: 30%;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 5px;
+    border: 2px solid var(--oq);
+    color: var(--black);
+}
+.navbar_main_right_hover_div_hover1_div_link:hover{
+    color: var(--red);
+    border-left: 2px solid var(--red);
+}
+.navbar_main_links_hover{
+    position: relative;
+}
+.navbar_main_links_hover:hover .navbar_main_links_hover_div{
+    display: flex;
+}
+.navbar_main_links_hover_div{
+    width: 600px;
+    position: absolute;
+    top: 63px;
+    background: var(--oq);
+    display: none;
+    padding: 50px;
+    column-gap: 20px;
+    border-top: 3px solid var(--red);
+}
+.navbar_main_links_hover_div_left,
+.navbar_main_links_hover_div_right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.navbar_main_links_hover_div_left_p{
+    color: #888;
+    font-size: 14px;
+}
+.navbar_main_links_hover_div_left_link{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.navbar_main_links_hover_div_left_link:hover{
+    background: var(--kulrang);
+}
+.navbar_main_links_hover1:hover .navbar_main_links_hover1_div{
+    display: flex;
+}
+.navbar_main_links_hover1_div{
+    width: 100%;
+    position: absolute;
+    display: none;
+    background: var(--oq);
+    left: 0;
+    padding: 60px;
+    border-top: 3px solid var(--red);
+}
+.navbar_main_links_hover1_div_div1{
+    width: 16.6%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+@media screen and (max-width: 1050px) {
+    .navbar_main_link{
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 968px) {
+    .main_link{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .navbar_main_right_div_div1{
+        display: flex;
+    }
+    .navbar_main_right_div{
+        display: none;
+    }
+    .navbar_main_icon{
+        display: flex;
+    }
+    .navbar_main_links{
+        display: none;
+    }
+    .navbar_main_right_hover_div_hover1_div{
+        width: 300px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 500px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .navbar_main_right_hover_div_hover1_div{
+        left: -300px;
+    }
+}

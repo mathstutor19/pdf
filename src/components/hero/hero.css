@@ -1,0 +1,29 @@
+.hero{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 130px;
+    background: -webkit-gradient(linear,left top,right top,color-stop(0,#882e27),color-stop(50%,#6d869a),to(#231641)) #44287d;
+    background: -webkit-linear-gradient(left,#882e27,#6d869a 50%,#231641) #44287d;
+    background: -o-linear-gradient(left,#882e27 0,#6d869a 50%,#231641 100%) #44287d;
+    background: linear-gradient(90deg,#882e27,#6d869a 50%,#231641) #44287d;
+}
+.hero_main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero_main_p{
+    text-align: center;
+    font-size: 42px;
+    color: #fff;
+    font-weight: 600;
+}
+.hero_main_p1{
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    padding-left: 140px;
+    padding-right: 140px;
+}

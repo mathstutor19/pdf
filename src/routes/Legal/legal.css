@@ -1,0 +1,115 @@
+.legalpage{
+    background-color: #f2f3f8;
+    padding: 146px 0 124px;
+}
+.legalpage .headlegal{
+    width: 90%;
+    margin-left: 5%;
+}
+.legalpage .headlegal h1{
+    color: #383e45;
+    font-size: 40px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+}
+.legalpage .cardslegal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.legalpage .cardleg{
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-sizing: border-box;
+    margin: 15px;
+    position: relative;
+    transition: .3s;
+}
+.legalpage .cardleg h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+.legalpage .iconlegal{
+    transform: scale(2.5);
+    color: #ff7d6d;
+    padding: 15px;
+    /* box-sizing: border-box; */
+}
+.legalpage .cardleg:hover{
+    transform: scale(1.1);
+}
+.legalpage .seemore{
+    position: absolute;
+    top: 85%;
+    color: #e5322d;
+    border-bottom: 1px solid #e5322d;
+    cursor: pointer;
+    transition: .3s;
+}
+.legalpage .seemore:hover{
+    color: #383e45;
+    border-bottom: 1px solid #383e45;
+}
+.legalpage .banner_software {
+    width: 100%;
+    height: 458px;
+    background-color: white;
+}
+
+.legalpage .banner_software_wrapper {
+    width: 42%;
+    height: 100%;
+    margin: auto;
+}
+.legalpage .banner_software_wrapper h1 {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 100px;
+    color: #383e45;
+}
+
+.legalpage .banner_software_wrapper p {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+    line-height: 1.5;
+    color: #383e45;
+}
+
+.legalpage .banner_software_images {
+    width: 70%;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.legalpage .banner_software_images img {
+    width: 60px;
+}
+@media(max-width:700px){
+    .legalpage .cardslegal{
+        display: block;
+    }
+    .legalpage .cardleg{
+        margin-bottom: 40px;
+    }
+    .legalpage .banner_software_wrapper {
+        width: 70%;
+    }
+}
+@media(min-width:701px) and (max-width:1100px){
+    .legalpage .cardslegal{
+        display: block;
+    }
+    .legalpage .cardleg{
+        display: inline-block;
+        width: 45%;
+        margin: 2.5%;
+    }
+}
