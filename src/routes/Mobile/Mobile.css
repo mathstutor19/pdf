@@ -239,6 +239,9 @@
 }
 
 @media all and (max-width: 480px) {
+  .mobile{
+    overflow-y: hidden;
+  }
   .mobile-container-one,
   .mobile-container-two,
   .mobile-container-three,
@@ -343,6 +346,9 @@
   }
 }
 @media all and (min-width:481px) and (max-width:768px){
+  .mobile{
+    overflow-y: hidden;
+  }
   .mobile-container-one,
   .mobile-container-two,
   .mobile-container-three,

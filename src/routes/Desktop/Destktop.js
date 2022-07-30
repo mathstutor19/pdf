@@ -13,7 +13,7 @@ function Desktop() {
     });
   };
   return (
-    <div>
+    <div className="desktop">
       <div className="container-one">
         <h1>iLovePDF Desktop</h1>
         <div className="btn">
@@ -212,7 +212,7 @@ function Desktop() {
             <hr />
             <dir className="btn">
               <p>-42%</p>
-              <div className="button">
+              <div className="buttonss">
                 <div className="btn-one">
                   <input
                     type="radio"
@@ -224,7 +224,7 @@ function Desktop() {
                     }
                     id="btn-one"
                   />
-                  <label htmlFor="btn-one">Monthly Billing</label>
+                  <label htmlFor="btn-one" className="btn-one">Monthly Billing</label>
                 </div>
                 <div className="btn-two">
                   <input
