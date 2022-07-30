@@ -21,6 +21,7 @@ import Contact from "./routes/Contact/Contact";
 import Education from "./routes/Education/Education";
 import Login from "./routes/Login/Login";
 import Register from "./routes/Register/Register";
+import Pricing from "./routes/Pricing/Pricing";
 
 function App() {
     return (
@@ -44,6 +45,7 @@ function App() {
                        <Route path='/education' element={<Education/>}></Route>
                        <Route path='/login' element={<Login/>}></Route>
                        <Route path='/register' element={<Register/>}></Route>
+                       <Route path='/pricing' element={<Pricing/>}></Route>
                  
                        
                     </Routes>

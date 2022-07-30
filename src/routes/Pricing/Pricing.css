@@ -1,0 +1,760 @@
+:root {
+    --font-family: "Raleway", sans-serif, "Open Sans", Arial;
+    --font-color: #383e45;
+    --font-color-one: #2bb4c0;
+    --font-color-two: #7c7c80;
+    --font-color-three: #e5322d;
+    --font-color-four: #161616;
+    --font-color-five: #bd060a;
+    --check-color: #4acd86;
+    --backgroung-color: #f2f3f8;
+  }
+  .parag-one {
+    width: 60%;
+    font-size: 42px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: normal;
+    color: var(--font-color);
+    margin: 10% 20% 3%;
+    font-weight: 500;
+    font-family: var(--font-family);
+  }
+  .radioBtns {
+    width: 90%;
+    margin: 0 5% 3%;
+    display: flex;
+    justify-content: center;
+  }
+  .radioBtns div {
+    width: 300px;
+    background-color: #e5e5e9;
+    height: 44px;
+    display: flex;
+    justify-content: space-evenly;
+    /* padding-right: 10px; */
+    align-items: center;
+    position: relative;
+    border-radius: 8px;
+  }
+  .radioBtns p {
+    position: absolute;
+    background-color: var(--check-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    right: -15px;
+    top: -15px;
+  }
+  .radioBtns div input {
+    opacity: 0;
+  }
+  .label {
+    margin-left: -10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 4px;
+    font-family: var(--font-family);
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: #7c7c80;
+  }
+  
+  .radioBtnlabel {
+    margin-left: -20px;
+    width: 150px;
+    height: 36px;
+    background-color: white;
+    color: #2bb4c0;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px 0px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+  }
+  
+  .container-one {
+    width: 90%;
+    margin: 5%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container-one .table-one .triangle {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: white white #e5322d #e5322d;
+    border-style: solid;
+    border-width: 30px;
+    top: -8px;
+    right: 0;
+  }
+  .container-one .table-two .triangle {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-color: white white #ffb400 #ffb400;
+    border-style: solid;
+    border-width: 30px;
+    top: -8px;
+    right: 0;
+  }
+  .container-one .table-three .triangle {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    background-color: #bd060a;
+    border-color: white white  #3cb6e2 #3cb6e2;
+    border-style: solid;
+    border-width: 30px;
+    top: -8px;
+    right: 0;
+    /* background-color: #383e45; */
+  }
+  .container-one .table-one {
+    position: relative;
+    margin: 1%;
+    border-radius: 8px;
+    background-color: #f2f3f8;
+    width: 414px;
+    height: 578px;
+  }
+  .container-one .table-two {
+    margin: 1%;
+    position: relative;
+    border-radius: 8px;
+    width: 414px;
+    height: 578px;
+    background-color: var(--font-color);
+  }
+  .container-one .table-three {
+    border-radius: 8px;
+    position: relative;
+    margin: 1%;
+    height: 578px;
+    width: 414px;
+  
+    background-color: #f2f3f8;
+  }
+  .container-one .table-one h3 {
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: normal;
+    color: var(--font-color-four);
+    font-family: var(--font-family);
+    font-weight: 300;
+    width: 80%;
+    margin: 8% 10% 0;
+  }
+  .container-one .table-one h1 {
+    margin: 0 10% 0;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: normal;
+    color: var(--font-color-four);
+  }
+  .container-one .table-one button {
+    width: 200px;
+    height: 42px;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: #161616;
+    font-family: var(--font-family);
+    border-radius: 4px;
+    font-size: 18px;
+    margin: 72px 0 14px 32px;
+    line-height: 18px;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 6px 0px;
+  }
+  .container-one .table-one .parag {
+    width: 80%;
+    height: 30px;
+    color: var(--font-color-four);
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: normal;
+    font-family: var(--font-family);
+    margin: 18px 0 24px 32px;
+    font-weight: 0;
+  }
+  .container-one .table-one div {
+    width: 350px;
+    height: 96px;
+    margin: 8px 0 0 32px;
+  }
+  .container-one .table-one div p {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0.3px;
+    color: #161616;
+    font-family: var(--font-family);
+    font-weight: 300;
+    margin-top: 12px;
+  }
+  .container-one .table-one div p i {
+    font-size: 23px;
+    color: var(--check-color);
+    font-weight: 800;
+    transform: translateY(5px);
+  }
+  
+  .container-one .table-two h3 {
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: normal;
+    color: #ffffff;
+    font-family: var(--font-family);
+    font-weight: 300;
+    width: 80%;
+    margin: 8% 10% 0;
+  }
+  .container-one .table-two .radiooBtn {
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  .container-one .table-two .radiooBtn span:nth-child(1) {
+    color: #ffffff;
+    line-height: 40px;
+    letter-spacing: normal;
+    font-size: 32px;
+    font-family: var(--font-family);
+    margin-left: 32px;
+  }
+  .container-one .table-two .radiooBtn span:nth-child(2) {
+    font-size: 15px;
+    font-family: var(--font-family);
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #ffffff;
+    margin: 17px 0 2px 5px;
+  }
+  .container-one .table-two .radiooBtn pre {
+    width: 350px;
+    height: 32px;
+    font-size: 12px;
+    text-align: start;
+    color: #ffffff;
+    font-family: var(--font-family);
+    margin: 2px 0 0 32px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+  }
+  .container-one .table-two button {
+    width: 200px;
+    height: 42px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: var(--font-color-four);
+    background-color: #ffb400;
+    border-radius: 4px;
+    border: none;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: normal;
+    font-family: var(--font-family);
+    margin: 0 0 14px 32px;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 6px 0px;
+  }
+  .container-one .table-two .parag {
+    width: 80%;
+    height: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: normal;
+    font-family: var(--font-family);
+    margin: 18px 0 24px 32px;
+    font-weight: 0;
+  }
+  
+  .container-one .table-two div {
+    width: 350px;
+    height: 96px;
+    margin: 8px 0 0 32px;
+  }
+  .container-one .table-two div p {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0.3px;
+    color: #ffffff;
+    font-family: var(--font-family);
+    font-weight: 300;
+    margin-top: 6px;
+  }
+  .container-one .table-two div p i {
+    font-size: 23px;
+    color: var(--check-color);
+    font-weight: 800;
+    transform: translateY(5px);
+  }
+  .container-one .table-three h3 {
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: normal;
+    color: var(--font-color-four);
+    font-family: var(--font-family);
+    font-weight: 300;
+    width: 80%;
+    margin: 8% 0 0 32px;
+  }
+  .container-one .table-three h5 {
+    width: 80%;
+    margin: 0 0 0 32px;
+    /* height: 40px; */
+    font-size: 15px;
+    line-height: 24px;
+    font-family: var(--font-family);
+    text-align: start;
+    letter-spacing: 0.3px;
+    color: #161616;
+    padding-top: 17px;
+  }
+  .container-one .table-three p {
+    width: 80%;
+    margin: 0 0 0 32px;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #161616;
+    font-family: var(--font-family);
+  }
+  .container-one .table-three button {
+    width: 200px;
+    height: 42px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    color: var(--font-color-four);
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: normal;
+    color: #161616;
+    font-family: var(--font-family);
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 6px 0px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin: 48px 0 0 32px;
+  }
+  .container-one .table-three .parag {
+    width: 80%;
+    height: 30px;
+    color: var(--font-color-four);
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: normal;
+    font-family: var(--font-family);
+    margin: 18px 0 40px 60px;
+    font-weight: 0;
+  }
+  
+  .container-one .table-three div {
+    width: 350px;
+    height: 96px;
+    margin: 8px 0 0 32px;
+  }
+  .container-one .table-three div p {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0.3px;
+    color: var(--font-color-four);
+    font-family: var(--font-family);
+    font-weight: 300;
+    margin-top: 6px;
+  }
+  .container-one .table-three div p i {
+    font-size: 23px;
+    color: var(--check-color);
+    font-weight: 800;
+    transform: translateY(5px);
+  }
+  .container-two h3 {
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: normal;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-weight: 300;
+    width: 60%;
+    margin: 76px 20% 12px;
+    text-align: center;
+  }
+  .container-two p {
+    width: 50%;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: var(--font-color-four);
+    margin: 12px 25% 52px;
+    font-family: var(--font-family);
+  }
+  .container-two p a {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--font-color-three);
+  }
+  .container-two .image {
+    width: 50%;
+    margin: 52px 25% 124px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .container-two .image img {
+    width: 66px;
+    height: 30px;
+  }
+  .container-three h1 {
+    width: 60%;
+    margin: 98px 20% 88px;
+    text-align: center;
+    color: var(--font-color);
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: normal;
+    font-family: var(--font-family);
+    font-weight: 300;
+  }
+  .container-three .table {
+    width: 90%;
+    margin: 73px 5% 17px;
+  }
+  .container-three .table table {
+    border-collapse: collapse;
+  }
+  .container-three .table tr th {
+    border: 1px solid #f2f3f8;
+    margin: 0;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: normal;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-weight: 300;
+    width: 339px;
+    height: 63px;
+  }
+  .container-three .table tr:nth-child(2) td {
+    background-color: #f2f3f8;
+    border: 1px solid #f2f3f8;
+    margin: 0;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 200;
+    /* padding-left: 10px; */
+    letter-spacing: normal;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-weight: 300;
+    width: 339px;
+    height: 63px;
+  }
+  .container-three .table tr:nth-child(3) td {
+    border: 1px solid #f2f3f8;
+    margin: 0;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 200;
+    /* padding-left: 20px; */
+    letter-spacing: normal;
+    font-family: var(--font-family);
+    color: var(--font-color);
+    font-weight: 300;
+    width: 339px;
+    height: 63px;
+  }
+  .container-three .table tr:nth-child(3) td p {
+    text-align: center;
+    padding: 0;
+  }
+  .container-three .table tr:nth-child(3) td div p {
+    font-size: 13px;
+    text-align: left;
+    display: flex;
+    line-height: 24px;
+    letter-spacing: normal;
+    /* color: var(--font-color-four); */
+    font-family: var(--font-family);
+  }
+  .container-three .table tr:nth-child(3) td div p span i {
+    font-size: 23px;
+    margin: 2px;
+    font-weight: 600;
+    color: #4acd86;
+  }
+  .container-three .table tr:nth-child(3) td div p span .bx-x {
+    color: #e5322d;
+  }
+  .container-three .table tr td:nth-last-child(-n + 4) {
+    border: 1px solid #f2f3f8;
+    margin: 0;
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: var(--font-color-four);
+    font-family: var(--font-family);
+    font-weight: 300;
+    width: 339px;
+    height: 63px;
+  }
+  .container-three .table tr:nth-child(4) td p,
+  .container-three .table tr:nth-child(5) td p {
+    text-align: center;
+    padding-left: 30px;
+    width: 225px;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: var(--font-color-four);
+    font-family: var(--font-family);
+    font-weight: 300;
+  }
+  .container-three .table tr:nth-child(4) td div p,
+  .container-three .table tr:nth-child(5) td div p {
+    font-size: 13px;
+    text-align: left;
+    position: relative;
+    display: flex;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: normal;
+    /* color: var(--font-color-four); */
+    font-family: var(--font-family);
+  }
+  .container-three .table tr:nth-child(4) td div p span:nth-child(2),
+  .container-three .table tr:nth-child(5) td div p span:nth-child(2) {
+    position: absolute;
+    right: 0;
+  }
+  .container-three .table tr:nth-child(6) td:nth-last-child(-n + 3),
+  .container-three .table tr:nth-child(7) td:nth-last-child(-n + 3),
+  .container-three .table tr:nth-child(8) td:nth-last-child(-n + 3),
+  .container-three .table tr:nth-child(9) td:nth-last-child(-n + 3),
+  .container-three .table tr:nth-child(11) td:nth-last-child(-n + 3),
+  .container-three .table tr:nth-child(12) td:nth-last-child(-n + 3),
+  .container-three .table tr:nth-child(13) td:nth-last-child(-n + 3),
+  .container-three .table tr:nth-child(15) td:nth-last-child(-n + 3),
+  .container-three .table tr:nth-child(16) td:nth-last-child(-n + 3),
+  .container-three .table tr:nth-child(17) td:nth-last-child(-n + 3),
+  .container-three .table tr:nth-child(18) td:nth-last-child(-n + 3),
+  .container-three .table tr:nth-child(19) td:nth-last-child(-n + 3),
+  .container-three .table tr:nth-child(20) td:nth-last-child(-n + 3),
+  .container-three .table tr:nth-child(21) td:nth-last-child(-n + 3),
+  .container-three .table tr:nth-child(23) td:nth-last-child(-n + 3),
+  .container-three .table tr:nth-child(24) td:nth-last-child(-n + 3),
+  .container-three .table tr:nth-child(25) td:nth-last-child(-n + 3) {
+    text-align: center;
+    padding-left: 0;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: var(--font-color-four);
+    font-family: var(--font-family);
+  }
+  
+  .container-three .table tr:nth-child(6) td:nth-child(2),
+  .container-three .table tr:nth-child(7) td:nth-child(2),
+  .container-three .table tr:nth-child(8) td:nth-child(2),
+  .container-three .table tr:nth-child(9) td:nth-child(2),
+  .container-three .table tr:nth-child(12) td:nth-child(2),
+  .container-three .table tr:nth-child(13) td:nth-child(2),
+  .container-three .table tr:nth-child(16) td:nth-child(2),
+  .container-three .table tr:nth-child(17) td:nth-child(2),
+  .container-three .table tr:nth-child(18) td:nth-child(2),
+  .container-three .table tr:nth-child(18) td:nth-child(3),
+  .container-three .table tr:nth-child(19) td:nth-child(2),
+  .container-three .table tr:nth-child(21) td:nth-child(2),
+  .container-three .table tr:nth-child(22) td:nth-child(2),
+  .container-three .table tr:nth-child(25) td:nth-child(2),
+  .container-three .table tr:nth-child(25) td:nth-child(3),
+  .container-three .table tr:nth-child(20) td:nth-child(2) {
+    font-size: 30px;
+    color: var(--font-color-two);
+  }
+  .container-three .table tr:nth-child(9) td:nth-child(3),
+  .container-three .table tr:nth-child(9) td:nth-child(4),
+  .container-three .table tr:nth-child(11) td:nth-child(2),
+  .container-three .table tr:nth-child(11) td:nth-child(3),
+  .container-three .table tr:nth-child(11) td:nth-child(4),
+  .container-three .table tr:nth-child(12) td:nth-child(3),
+  .container-three .table tr:nth-child(12) td:nth-child(4),
+  .container-three .table tr:nth-child(13) td:nth-child(3),
+  .container-three .table tr:nth-child(15) td:nth-child(2),
+  .container-three .table tr:nth-child(13) td:nth-child(4),
+  .container-three .table tr:nth-child(15) td:nth-child(3),
+  .container-three .table tr:nth-child(15) td:nth-child(4),
+  .container-three .table tr:nth-child(16) td:nth-child(3),
+  .container-three .table tr:nth-child(16) td:nth-child(4),
+  .container-three .table tr:nth-child(18) td:nth-child(4),
+  .container-three .table tr:nth-child(19) td:nth-child(3),
+  .container-three .table tr:nth-child(19) td:nth-child(4),
+  .container-three .table tr:nth-child(20) td:nth-child(3),
+  .container-three .table tr:nth-child(20) td:nth-child(4),
+  .container-three .table tr:nth-child(21) td:nth-child(3),
+  .container-three .table tr:nth-child(21) td:nth-child(4),
+  .container-three .table tr:nth-child(23) td:nth-child(2),
+  .container-three .table tr:nth-child(23) td:nth-child(3),
+  .container-three .table tr:nth-child(23) td:nth-child(4),
+  .container-three .table tr:nth-child(24) td:nth-child(2),
+  .container-three .table tr:nth-child(24) td:nth-child(3),
+  .container-three .table tr:nth-child(24) td:nth-child(4),
+  .container-three .table tr:nth-child(25) td:nth-child(4) {
+    font-size: 30px;
+    color: var(--check-color);
+  }
+  .container-three .table table tr td:nth-child(2) button,
+  .container-three .table table tr td:nth-child(4) button {
+    width: 200px;
+    height: 42px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    color: #161616;
+    transition: 0.3s;
+    font-family: var(--font-family);
+    border-radius: 4px;
+    font-size: 18px;
+    margin: 0 0 14px 32px;
+    line-height: 18px;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 6px 0px;
+  }
+  .container-three .table table tr td:nth-child(3) button {
+    width: 200px;
+    transition: 0.3s;
+    cursor: pointer;
+  
+    height: 42px;
+    color: var(--font-color-four);
+    background-color: #ffb400;
+    border-radius: 4px;
+    border: none;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: normal;
+    font-family: var(--font-family);
+    margin: 0 0 14px 32px;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 6px 0px;
+  }
+  
+  .container-four {
+    width: 90%;
+    margin: 0 5% 10px;
+    padding-top: 96px;
+    padding-bottom: 124px;
+    background-color: #f6f6f8;
+  }
+  .container-four h1 {
+    width: 60%;
+    margin: 0 20% 8px;
+    font-family: var(--font-family);
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: normal;
+    color: var(--font-color);
+    font-weight: 100;
+  }
+  .container-four .parag {
+    width: 60%;
+    margin: 0 20% 64px;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--font-color);
+  }
+  /* .container-four .array{
+    width: 60%;
+    margin: 0 20% 48px;
+  } */
+  .container-four div div {
+    width: 60%;
+    margin: 0 20% 48px;
+  }
+  .container-four div div .array {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+  }
+  .container-four div div .array h3 {
+    font-size: 20px;
+    line-height: 30px;
+    line-height: normal;
+    text-align: left;
+    font-family: var(--font-family);
+    color: var(--font-color-five);
+    font-weight: 300;
+  }
+  .container-four div div .array button {
+    font-size: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    line-height: normal;
+    text-align: left;
+    border: none;
+    color: var(--font-color-five);
+    background-color: #f6f6f8;
+  }
+  .container-four div div hr {
+    background-color: var(--font-color-five);
+  }
+  .container-four div div p {
+    font-size: 15px;
+    width: 95%;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: var(--font-color-four);
+    font-family: var(--font-family);
+    margin: 32px 0px;
+  }
+  .container-one .table-one button:hover,
+  .container-one .table-three button:hover,
+  .container-three .table table tr td:nth-child(2) button:hover,
+  .container-three .table table tr td:nth-child(4) button:hover {
+    color: var(--font-color-three);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px 2px;
+  }
+  .container-one .table-two button:hover,
+  .container-three .table table tr td:nth-child(3) button:hover {
+    background-color: #ffedc2;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 8px 2px;
+  }
+  @media all and (max-width: 931px) {
+    .container-three .table {
+      overflow-y: scroll;
+    }
+  }
+  @media all and (min-width: 475px) and (max-width: 930px) {
+    .container-one .table-one {
+      margin: 1% 23%;
+    }
+    .container-one .table-two {
+      margin: 1% 23%;
+    }
+    .container-one .table-three {
+      margin: 1% 23%;
+    }
+  }
+  
