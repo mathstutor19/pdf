@@ -33,7 +33,7 @@ function Compress() {
                     Reduce file size while optimizing for maximal PDF quality.
                     </p>
                     <div className="label__wrapper">
-                        <label>
+                        <label className="merge__label">
                             Select PDF File
                             <input
                                 type="file"

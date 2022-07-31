@@ -106,8 +106,8 @@ const Navbar = () => {
                 <div className="navbar_main_right">
                     <div className="navbar_main_right_div">
                         <Link to='/desktop' className='navbar_main_right_link'><GoDesktopDownload/></Link>
-                        <Link to='/' className='navbar_main_right_link1'>Log in</Link>
-                        <Link to='/' className='navbar_main_right_link2'>Sign up</Link>
+                        <Link to='/login' className='navbar_main_right_link1'>Log in</Link>
+                        <Link to='/register' className='navbar_main_right_link2'>Sign up</Link>
                     </div>
                     <div className='navbar_main_right_div_div1'>
                         <p className='navbar_main_right_div_div1_p'></p>
@@ -134,7 +134,7 @@ const Navbar = () => {
                                     <a target="_blank" href='https://developer.ilovepdf.com/' className='navbar_main_right_hover_div_link'><AiOutlineMobile className='icon'/> Developers</a>
                                 </div>
                             </div>
-                            <Link to='/' className='navbar_main_right_hover_div_link'><MdOutlinePriceChange className='icon'/> Pricing</Link>
+                            <Link to='/pricing' className='navbar_main_right_hover_div_link'><MdOutlinePriceChange className='icon'/> Pricing</Link>
                             <div className="navbar_main_right_hover_div_hover1">
                                 <Link to='/' className='navbar_main_right_hover_div_link'><BsGlobe2 className='icon'/> Language <MdOutlineKeyboardArrowRight className='hover_arrow'/></Link>
                                 <div className="navbar_main_right_hover_div_hover1_div">

@@ -32,7 +32,7 @@ function Split() {
                         into independent PDF files.
                     </p>
                     <div className="label__wrapper">
-                        <label>
+                        <label className="merge__label">
                             Select PDF File
                             <input
                                 type="file"

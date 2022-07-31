@@ -31,7 +31,7 @@
 }
 .pricing .radioBtns div {
   width: 300px;
-  background-color: #e5e5e9;
+  background-color: #e5e5e9 !important;
   height: 44px;
   display: flex;
   justify-content: space-evenly;
@@ -90,7 +90,7 @@
 
 .pricing .container-one {
   width: 90%;
-  margin: 5%;
+  margin: 0px auto;
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
@@ -126,19 +126,21 @@
   right: 0;
   /* background-color: #383e45; */
 }
+
 .pricing .container-one .table-one {
   position: relative;
+
   margin: 1%;
   border-radius: 8px;
   background-color: #f2f3f8;
-  width: 414px;
+  width: 380px;
   height: 578px;
 }
 .pricing .container-one .table-two {
   margin: 1%;
   position: relative;
   border-radius: 8px;
-  width: 414px;
+  width: 380px;
   height: 578px;
   background-color: var(--font-color);
 }
@@ -147,8 +149,7 @@
   position: relative;
   margin: 1%;
   height: 578px;
-  width: 414px;
-
+  width: 380px;
   background-color: #f2f3f8;
 }
 .pricing .container-one .table-one h3 {

@@ -32,7 +32,7 @@ function Merge() {
                         merger available.
                     </p>
                     <div className="label__wrapper">
-                        <label>
+                        <label className="merge__label">
                             Select PDF File
                             <input
                                 type="file"

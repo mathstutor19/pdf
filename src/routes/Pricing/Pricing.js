@@ -12,6 +12,7 @@ import {
   limitOne,
   unlimitedOne,
 } from "./array";
+import Footer from '../../components/footer/Footer'
 import "./Pricing.css";
 import ArrayMao from "./ArrayMao";
 function Pricing() {
@@ -70,6 +71,7 @@ function Pricing() {
               </p>
             </div>
           </div>
+          
           <div className="table-two">
           <div className="triangle"></div>
             <h3>Premium</h3>
@@ -564,6 +566,7 @@ function Pricing() {
             })}
           </div>
         </div>
+        <Footer/>
       </div>
     
   );
