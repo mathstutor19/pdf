@@ -129,7 +129,7 @@ const Navbar = () => {
                             <div className="navbar_main_right_hover_div_hover">
                                 <Link to='/' className='navbar_main_right_hover_div_link'><HiLightBulb className='icon'/> Solutions <MdOutlineKeyboardArrowRight className='hover_arrow'/></Link>
                                 <div className='navbar_main_right_hover_div_hover_div'>
-                                    <Link to='/' className='navbar_main_right_hover_div_link'><IoMdBusiness className='icon'/> Busines</Link>
+                                    <Link to='/business' className='navbar_main_right_hover_div_link'><IoMdBusiness className='icon'/> Busines</Link>
                                     <Link to='/education' className='navbar_main_right_hover_div_link'><MdVerifiedUser className='icon'/> Education</Link>
                                     <a target="_blank" href='https://developer.ilovepdf.com/' className='navbar_main_right_hover_div_link'><AiOutlineMobile className='icon'/> Developers</a>
                                 </div>

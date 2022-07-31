@@ -1,0 +1,401 @@
+.business .sheetone {
+  background-color: #f2f3f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.business .headinfo {
+  width: 40%;
+}
+.business .headinfo h1 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 0.9;
+  color: #383e45;
+}
+.business .headinfo p {
+  font-size: 22px;
+  font-weight: 400;
+  color: #383e45;
+  letter-spacing: 0;
+  margin-bottom: 8px;
+  line-height: 32px;
+}
+.business .sheetone .btn {
+  margin-top: 48px;
+  min-width: 200px;
+  padding: 10px 24px 14px;
+  text-shadow: none;
+  border: none;
+  text-decoration: none;
+  border-radius: 4px;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  -webkit-box-shadow: 0 3px 6px 0 rgb(0 0 0 / 14%);
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 14%);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0;
+  color: #fff;
+  background-color: #e5322d;
+}
+.business .sheettwo {
+  margin-top: 50px;
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.business .sheettwo .cardbus {
+  height: auto;
+  width: 300px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 0.3s;
+  border-radius: 8px;
+  padding: 32px;
+  box-sizing: border-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #fff;
+}
+.business .sheettwo .cardbus:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.business .sheettwo .cardbus h3 {
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  margin-bottom: 12px;
+  letter-spacing: 0;
+  color: #383e45;
+}
+.business .sheettwo .cardbus p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #626870;
+}
+.business .sheetthree {
+  background-color: #f2f3f8;
+  padding: 72px 0 96px;
+}
+.business .sheetthree h1 {
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 0;
+  font-weight: 600;
+  color: #383e45;
+  margin-bottom: 8px;
+  line-height: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.business .sheetthree h5 {
+  margin: 0%;
+  text-align: center;
+  font-weight: 400;
+}
+.business .sheetthree h6 {
+  margin: 0%;
+  text-align: center;
+  font-weight: 700;
+}
+.business .sheetthree .app {
+  /* margin: 20px 20px; */
+  margin-top: 60px;
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+  /* display: inline; */
+}
+.business .sheetthree .app .elements {
+  display: inline-block;
+  width: 12%;
+  margin-left: 4%;
+}
+.business .sheetfour {
+  width: 90%;
+  margin-left: 5%;
+  margin: auto;
+  padding: 72px 0 96px;
+}
+.business .sheetfour div {
+  display: inline-block;
+  width: 30%;
+  margin: 1.4%;
+}
+.business .sheetfive {
+  width: 100%;
+  /* margin-left: 5%; */
+  margin: auto;
+  padding-bottom: 80px;
+  background-color: #f2f3f8;
+}
+.business .sheetfive .buss {
+  width: 90%;
+  margin-left: 5%;
+}
+.business .sheetfive h1 {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 0;
+  font-weight: 600;
+  color: #383e45;
+  margin-bottom: 8px;
+  line-height: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.aloneh1 {
+  font-size: 32px;
+  letter-spacing: 0;
+  font-weight: 600;
+  color: #383e45;
+  line-height: 40px;
+  max-width: 800px;
+  text-align: center;
+  margin: 30px 20%;
+}
+.business .sheetfive .imgbus {
+  display: inline-block;
+  margin: 11px;
+  width: 31%;
+}
+.business .sheetfive p {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #626870;
+  margin-top: 72px;
+  text-align: center;
+}
+.business .sheetsix {
+  background: #383e45;
+  color: #f3f0ec;
+  padding: 50px;
+}
+.business .sheetsix .sixinfo {
+  display: inline-block;
+  width: 50%;
+  margin-right: 10%;
+}
+.business .sheetsix .siximg {
+  display: inline-block;
+  width: 30%;
+}
+.business .sheetsix .sixinfo h1 {
+  font-size: 32px;
+  letter-spacing: 0;
+  font-weight: 600;
+  margin-bottom: 8px;
+  line-height: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.business .sheetsix .sixinfo p {
+  letter-spacing: 0.3px;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+.business .sheetsix .sixinfo .infoimg {
+  margin-right: 30px;
+}
+.business .sheetseven {
+  width: 90%;
+  margin-left: 5%;
+}
+.business .sheetseven .headseven {
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 0;
+  font-weight: 600;
+  color: #383e45;
+  margin-bottom: 8px;
+  line-height: 40px;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.business .sheetseven .sevencards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.business .sheetseven .sevencard {
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #f2f3f8;
+  position: relative;
+  margin: 16px;
+  border-radius: 8px;
+  -ms-flex: 1 0;
+  flex: 1 0;
+}
+.business .sheetseven .sevencard .cardrt {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.business .cardrt img {
+  width: 100%;
+}
+.business .sheetseven .sevencard h2 {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 34px;
+  font-weight: 500;
+}
+.business .sheetseven .sevencard h1 {
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 40px;
+  font-weight: 600;
+}
+.business .sheetseven .sevencard span {
+  margin: 40px 0px 20px 0px;
+  min-width: 200px;
+  padding: 10px 24px 14px;
+  text-shadow: none;
+  border: none;
+  text-decoration: none;
+  border-radius: 4px;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  -webkit-box-shadow: 0 3px 6px 0 rgb(0 0 0 / 14%);
+  box-shadow: 0 3px 6px 0 rgb(0 0 0 / 14%);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0;
+  background-color: #fff;
+  color: #161616;
+}
+.business .sheetieght {
+  background-color: #f2f3f8;
+  padding: 50px 0px;
+  color: #383e45;
+}
+.business .sheetieght h1 {
+  font-size: 32px;
+  letter-spacing: 0;
+  font-weight: 600;
+  color: #383e45;
+  margin-bottom: 8px;
+  line-height: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.business .sheetieght .cardsbus {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.business .sheetieght .cardbus {
+  width: 30%;
+  text-align: center;
+  margin: 20px 0px;
+}
+@media (max-width: 768px) {
+  .business .sheetone {
+    padding-left: 16px;
+    padding-right: 16px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .business .headinfo {
+    width: 100%;
+  }
+  .business .sheettwo {
+    margin-top: 50px;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    display: block;
+  }
+  .business .sheettwo .cardbus {
+    width: 100%;
+    margin: 20px;
+
+    transition: 0.3s;
+    border-radius: 8px;
+    padding: 32px;
+  }
+  .business .sheetthree .app .elements {
+    display: block;
+    width: 12%;
+    margin: 20px auto 0px;
+  }
+  .business .sheetfour div {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-bottom: 32px;
+  }
+  .business .sheetfive .imgbus {
+    display: block;
+    margin: 11px auto;
+    width: 100%;
+  }
+  .business .sheetsix .sixinfo {
+    display: inline-block;
+    width: 100%;
+    margin-right: 10%;
+  }
+  .business .sheetsix .siximg {
+    display: none;
+  }
+  .business .sheetseven .sevencards {
+    display: block;
+  }
+  .business .sheetieght .cardsbus {
+    width: 90%;
+    margin: 0px auto;
+    display: block;
+  }
+  .business .sheetieght .cardbus {
+    width: 30%;
+    text-align: center;
+    margin: 30px auto;
+  }
+}

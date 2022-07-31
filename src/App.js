@@ -22,6 +22,7 @@ import Education from "./routes/Education/Education";
 import Login from "./routes/Login/Login";
 import Register from "./routes/Register/Register";
 import Pricing from "./routes/Pricing/Pricing";
+import Business from "./routes/Business/Business";
 
 function App() {
     return (
@@ -46,6 +47,7 @@ function App() {
                        <Route path='/login' element={<Login/>}></Route>
                        <Route path='/register' element={<Register/>}></Route>
                        <Route path='/pricing' element={<Pricing/>}></Route>
+                       <Route path='/business' element={<Business/>}></Route>
                  
                        
                     </Routes>
