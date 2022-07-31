@@ -1,6 +1,6 @@
 import React from "react";
-import './App.css'
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./routes/Home/Home";
 import Desktop from "./routes/Desktop/Destktop";
@@ -21,16 +21,20 @@ import Contact from "./routes/Contact/Contact";
 import Education from "./routes/Education/Education";
 import Login from "./routes/Login/Login";
 import Register from "./routes/Register/Register";
+<<<<<<< HEAD
 import Pricing from "./routes/Pricing/Pricing";
 import Business from "./routes/Business/Business";
+=======
+import Pricing from "./routes/Pricing/Pricing.js";
+>>>>>>> fd9209c04fc093e16a98a519199e245a77037121
 
 function App() {
-    return (
-        <div>
-                <BrowserRouter>
-                    <Navbar />
-              
+  return (
+    <div>
+      <BrowserRouter>
+        <Navbar />
 
+<<<<<<< HEAD
                     <Routes>
                         <Route exact path="/" element={<Home/>} />
                         <Route path="/merge" element={<Merge />} />
@@ -55,6 +59,28 @@ function App() {
                 </BrowserRouter>
         </div>
     );
+=======
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/merge" element={<Merge />} />
+          <Route path="/split" element={<Split />} />
+          <Route path="/compress" element={<Compress />} />
+          <Route path="/mobile" element={<Mobile />} />
+          <Route path="/desktop" element={<Desktop />}></Route>
+          <Route path="/faq" element={<Faq />}></Route>
+          <Route path="/tool" element={<Tool />}></Route>
+          <Route path="/legal" element={<Legal />}></Route>
+          <Route path="/story" element={<Story />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/education" element={<Education />}></Route>
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/register" element={<Register />}></Route>
+          <Route path="/pricing" element={<Pricing />}></Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
+  );
+>>>>>>> fd9209c04fc093e16a98a519199e245a77037121
 }
 
 export default App;
